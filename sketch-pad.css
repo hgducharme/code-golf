@@ -1,0 +1,29 @@
+header {
+  width: 100%;
+  text-align: center;
+  font-family: 'Slabo 13px', serif;
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 10px 30px;
+  background-color: #d7d7d7;
+  border-radius: 5px;
+}
+
+.grid {
+  border: 1px solid black;
+  text-align: center;
+  margin: 0 auto;
+  width: 640px;
+}
+
+table {
+  margin: 0 auto;
+}
+
+td {
+  height: 40px;
+  width: 40px;
+  border: 1px solid black;
+}
