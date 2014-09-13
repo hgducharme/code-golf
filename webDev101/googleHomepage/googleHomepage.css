@@ -1,0 +1,167 @@
+/* NAVIGATION */
+
+#nav {
+  padding: 0px;
+  margin: 0px;
+  position: relative;
+  height: 60px;
+  width: 1222px;
+  margin-bottom: 35px;
+  font-family: arial;
+  font-size: small;
+}
+
+#nav ul {
+  right: 0px;
+  margin-top: 0px;
+  position: absolute;
+  height: 60px;
+}
+
+#nav li {
+  display: inline-block;
+  list-style: none;
+  padding: 3px;
+  margin: 3px;
+  vertical-align: middle;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: purple;
+}
+
+
+#share {
+  height: 30px;
+  width: 60px;
+  background-color: #f3f3f3;
+  text-align: center;
+  line-height: 30px;
+  background-image: url('https://plus.google.com/u/0/stream/all?hl=en');
+  
+}
+
+#share:hover {
+  background-color: #dadada;
+  text-decoration: none;
+}
+
+#avatar {
+  border-radius: 15px;
+}
+
+.divider {
+  font-weight: bold;
+}
+
+li a {
+  text-decoration: none;
+}
+
+
+
+/********** End Navigation **********/
+
+/* SEARCH ENGINE */
+#content {
+  position: relative;
+  height: 380px;
+  width: 1222px;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+#logo {
+  display: block;
+  position: relative;
+  margin-top: 112px;
+  margin-bottom: 10px;
+}
+
+#form {
+  height: 102px;
+  
+}
+
+input {
+  width: 523px;
+  height: 25px;
+  margin-bottom: 20px;
+}
+
+.mic {
+  position: absolute;
+  vertical-align: middle;
+}
+
+button {
+  padding: 0 8px;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: Arial;
+  height: 30px;
+  text-align: center;
+  border-radius: 2px;
+  background-color: rgba(0,0,0,0.1);
+  border: 1px solid black;
+  margin: 0 8px;
+  
+}
+
+button:hover {
+  background-color: rgba(0,0,0,0.15);
+}
+
+/******* End Search Engine *******/
+
+
+/* FOOTER */
+#footer {
+  height: 40px;
+  width: 1222px;
+  position: relative;
+  border-top: 1px solid #e4e4e4;
+  background-color: #f2f2f2;
+  font-size: small;
+  font-family: arial;
+  overflow: hidden;
+}
+
+#footer ul {
+  position: absolute;
+  vertical-align: middle;
+}
+
+#footer li {
+  list-style: none;
+  display: inline;
+  vertical-align: middle;
+  padding: 2px;
+
+}
+
+.left {
+  left: 0px;
+  padding: 3px;
+}
+
+.left li {
+  margin-left: 18px;
+}
+
+.right {
+  right: 0px;
+  padding: 3px;
+}
+
+.right li {
+  margin-right: 18px;
+}
