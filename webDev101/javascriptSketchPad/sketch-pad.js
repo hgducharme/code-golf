@@ -4,11 +4,12 @@ $(function() {
   resetTable();
   trail();
   randomColorHover();
+  resetTableTrail();
 });
 
 
 
-// Creates Table
+// CREATES TABLE
 function buildTable(n) {
 
   var boxSize = (850/n);
@@ -28,7 +29,7 @@ function buildTable(n) {
 
 
 
-// Hover Function To Add Colors
+// CREATES HOVER FUNCTION TO ADD BLUE COLOR
 function hover() {
   $('td').hover(function() {
     $(this).css('background-color', 'rgb(90,188,215)');
@@ -40,7 +41,8 @@ function hover() {
 };
 
 
-// Rebuilds Table When Button Is Clicked
+
+// REBUILDS TABLE WHEN BUTTON IS CLICKED
 function resetTable() {
   $('button').on('click', function() {
 
@@ -62,21 +64,25 @@ function resetTable() {
 
 
 
-// Creates Trail
+// CREATES TRAIL MODE
 function trail() {
   $("#trail").click(function() {
+    
+    $('td').css('background-color', 'rgb(90,188,215)')
+    
     $('td').hover(function() {
-      $(this).fadeIn('fast');
+      $(this).css('opacity', '0');
     },
 
     function() {
-      $(this).fadeOut('fast');
+      $(this).fadeTo('slow', 1);
     });
   });
 };
 
 
-// Creates Random Color Mode
+
+// CREATES RANDOM COLOR MODE
 function randomColor() {
     var r = Math.floor(Math.random() * 256);
     var g = Math.floor(Math.random() * 256);
@@ -88,9 +94,9 @@ function randomColor() {
 function randomColorHover() {
   $('#randomColor').click(function() {
     $('td').hover(function() {
-      $(this).css('background-color', randomColor());
+      $(this).css('background-color', randomColor() );
     }, function() {
-      $(this).css('background-color', randomColor());
+      $(this).css('background-color', randomColor() );
     });
   });
 }
