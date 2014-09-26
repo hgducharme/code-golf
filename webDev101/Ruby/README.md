@@ -1,5 +1,4 @@
 Ruby
 =========
 
-
-[Ruby Project URL](http://www.theodinproject.com/web-development-101/ruby)
+[Link to project](http://www.theodinproject.com/web-development-101/ruby)
