@@ -1,4 +1,4 @@
 odinProjects
 ============
 
-A repository to hold the projects that I complete while going through The Odin Project web development course
+This is a collection of all my projects that I have completed while going through [The Odin Project](http://www.theodinproject.com/home) Web Development Course.
