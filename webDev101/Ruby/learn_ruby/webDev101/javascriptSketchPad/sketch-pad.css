@@ -1,0 +1,33 @@
+header {
+  width: 100%;
+  text-align: center;
+  font-family: 'Slabo 13px', serif;
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 10px 30px;
+  background-color: rgb(90,188,215);
+  border-radius: 5px;
+  margin: 0 5px;
+}
+
+.btn:hover {
+  background-color: rgb(72,150,172);
+}
+
+.grid {
+  border: 1px solid black;
+  text-align: center;
+  margin: 0 auto;
+  width: 850px;
+}
+
+table {
+  margin: 0 auto;
+}
+
+td {
+  border: 1px solid black;
+  background-color: rgb(215,215,215);
+}
