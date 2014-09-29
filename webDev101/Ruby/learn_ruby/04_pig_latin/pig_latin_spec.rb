@@ -23,22 +23,22 @@ describe "#translate" do
 
   it "translates a word beginning with a vowel" do
     s = translate("apple")
-    s.should == "appleay"
+    translate(s).should == "appleay"
   end
 
   it "translates a word beginning with a consonant" do
     s = translate("banana")
-    s.should == "ananabay"
+    translate(s).should == "ananabay"
   end
 
   it "translates a word beginning with two consonants" do
     s = translate("cherry")
-    s.should == "errychay"
+    translate(s).should == "errychay"
   end
 
   it "translates two words" do
     s = translate("eat pie")
-    s.should == "eatay iepay"
+    translate(s).should == "eatay iepay"
   end
 
   it "translates a word beginning with three consonants" do
@@ -47,22 +47,22 @@ describe "#translate" do
 
   it "counts 'sch' as a single phoneme" do
     s = translate("school")
-    s.should == "oolschay"
+    translate(s).should == "oolschay"
   end
 
   it "counts 'qu' as a single phoneme" do
     s = translate("quiet")
-    s.should == "ietquay"
+    translate(s).should == "ietquay"
   end
 
   it "counts 'qu' as a consonant even when it's preceded by a consonant" do
     s = translate("square")
-    s.should == "aresquay"
+    translate(s).should == "aresquay"
   end
 
   it "translates many words" do
     s = translate("the quick brown fox")
-    s.should == "ethay ickquay ownbray oxfay"
+    translate(s).should == "ethay ickquay ownbray oxfay"
   end
 
   # Test-driving bonus:
