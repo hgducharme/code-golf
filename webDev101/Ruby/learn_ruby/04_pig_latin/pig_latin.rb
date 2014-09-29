@@ -1,25 +1,12 @@
-#Dont be biased by reading the below method. Start creating a new way to do it.
-
-
-
-
-
-
-
-
-
-
-=begin
-
-def translate(phrase)
-	vowels = ["a", "e", "i", "o", "u"]
-
-	case phrase
-	when (vowels.include? phrase[0])
-		return "#{phrase}ay"
-	else
-		return phrase
-	end
+def translate(s)
+    words = s.split(' ')
+    words = words.map do |word|
+        if word[0].chr == 'q' 
+            parts = ['qu', word.slice(2,word.length-2)]
+        else 
+            parts = word.split(/([aeiou].*)/)     
+        end
+        parts[1] + parts[0] + "ay"
+    end
+    words.join(' ')
 end
-
-=end
