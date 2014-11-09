@@ -18,8 +18,8 @@
 
 <h1>All Tags</h1>
 
-<ul>
+<ul id="articles">
 	<% @tags.each do |tag| %>
-		<br /><li><%= link_to tag.name.capitalize, tag_path(tag) %></li>
+		<br /><li><%= link_to tag.name.capitalize, tag_path(tag), class: 'article_title' %></li>
 	<% end %>
 </ul>
