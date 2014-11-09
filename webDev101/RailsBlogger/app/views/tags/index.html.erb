@@ -1,0 +1,14 @@
+<h1>A List of All Tags</h1>
+
+<p>
+	<% @tags.each do |tag| %>
+		<ul>
+			<br /><li><%= link_to tag.name.capitalize, tag_path(tag) %></li>
+
+			<%= link_to "Delete Tag", tag_path(tag), method: :delete, data: {confirm: "Are you sure you want to delete this tag?"} %>
+		</ul>
+	<% end %>
+</p>
+
+<!-- The class is 'new_article' because I want it in the top right corner, and the 'new_article' css class will put it there. -->
+<%= link_to "Back to Articles", articles_path, class: "new_article" %>

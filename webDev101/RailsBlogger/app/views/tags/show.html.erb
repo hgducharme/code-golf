@@ -1,0 +1,10 @@
+<h1>Articles Tagged with "<%= @tag.name.capitalize %>"</h1>
+
+<ul>
+  <% @tag.articles.each do |article| %>
+    <li><%= link_to article.title, article_path(article) %></li>
+  <% end %>
+</ul>
+
+<!-- The class is 'new_article' because I want it in the top right corner, and the 'new_article' css class will put it there. -->
+<%= link_to "Back to All Tags", tags_path, class: "new_article" %>

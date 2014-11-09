@@ -3,6 +3,7 @@ include ArticlesHelper
 
 	def index
 		@articles = Article.all
+		@tags = Tag.all
 	end
 
 	def show
@@ -46,4 +47,5 @@ include ArticlesHelper
 
 		redirect_to articles_path
 	end
+
 end
