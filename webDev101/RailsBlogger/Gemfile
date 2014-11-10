@@ -39,3 +39,5 @@ gem 'spring',        group: :development
 # gem 'debugger', group: [:development, :test]
 
 gem "paperclip"
+
+ruby "2.1.4"
