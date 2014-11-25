@@ -2,9 +2,9 @@
 
 A blogging web application built using Ruby on Rails!
 
-[View live demo](https://jumpstartblogger.herokuapp.com/)
+{View live demo}[https://jumpstartblogger.herokuapp.com/]
 
-[Link to project](http://www.theodinproject.com/web-development-101/ruby-on-rails)
+{Link to project}[http://www.theodinproject.com/web-development-101/ruby-on-rails]
 ---
 
 * Ruby version: 2.1.4
