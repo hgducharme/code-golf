@@ -1,4 +1,10 @@
-== README
+== RailsBlogger
+
+This is a repository in order to deploy my project for {The Odin Project}[http://www.theodinproject.com/home] to Heroku. My repository for all my other projects for this course can be found {here}[https://github.com/hgducharme/OdinProjects].
+
+I created a seperate repository because Heroku requires the Rails app that is being deployed to be in the root directory of the repository, and that would have messed up the format of my other repository.
+
+---
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
