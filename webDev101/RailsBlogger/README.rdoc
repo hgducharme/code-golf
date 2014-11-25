@@ -1,34 +1,12 @@
 == RailsBlogger
 
-This is a repository in order to deploy my project for {The Odin Project}[http://www.theodinproject.com/home] to Heroku. My repository for all my other projects for this course can be found {here}[https://github.com/hgducharme/OdinProjects].
+A blogging web application built using Ruby on Rails!
 
-I created a seperate repository because Heroku requires the Rails app that is being deployed to be in the root directory of the repository, and that would have messed up the format of my other repository.
+[View live demo](https://jumpstartblogger.herokuapp.com/)
 
+[Link to project](http://www.theodinproject.com/web-development-101/ruby-on-rails)
 ---
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+* Ruby version: 2.1.4
+* Rails version: 4.1.7
+* Database type: Postgresql
