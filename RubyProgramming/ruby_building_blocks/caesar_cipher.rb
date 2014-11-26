@@ -15,7 +15,6 @@ def check_position(fixnum)
 end
 
 def caesar_cipher
-	puts
 	puts "Please type the string that you would like to encrypt:"
 	string = gets.chomp
 	while string.empty? 
