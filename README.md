@@ -17,8 +17,7 @@ Here is the tree for this repository:
 │   │   ├── 004
 │   │   ├── 005
 │   │   ├── 006
-│   │   ├── 007
-│   │   ├── [Shortened for brevity]
+│   │   ├── ... #[shortened for brevity]
 ├── odin_projects
 │   ├── README.md
 │   ├── ruby_programming
