@@ -9,6 +9,8 @@ A repository for all things coding practice, which includes:
 
 Here is the tree for this repository:
 ```bash
+#This only lists the important directories, and disregards the tree to each and every file.
+
 ├── Exercises
 │   ├── Exercism
 │   │   ├── javascript
@@ -24,6 +26,7 @@ Here is the tree for this repository:
 │   │   ├── OOP_ruby
 │   │   ├── advanced_building_blocks
 │   │   ├── ruby_building_blocks
+│   │   ├── ruby_on_the_web
 │   │   └── serialization
 │   └── webDev101
 │       ├── RailsBlogger
