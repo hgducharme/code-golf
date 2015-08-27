@@ -1,11 +1,10 @@
 import timing
 from math import sqrt
 
-print "Please enter the starting number: "
-start_number = int(raw_input())
-print "Please enter the ending number: "
-end_number = int(raw_input())
+start_number = int(raw_input("Please enter the starting number: "))
+end_number = int(raw_input("Please enter the ending number: "))
 
+# retrieves fibbonacci numbers
 def F():
     a,b = 0,1
     yield a
@@ -14,12 +13,14 @@ def F():
         a, b = b, a + b
         yield b
 
-def SubFib(start_number, end_number):
+# retrieves fibbonacci numbers within a specified range
+def SubFib(start, end):
     for cur in F():
-        if cur > end_number: return
-        if cur >= start_number:
+        if cur > end: return
+        if cur >= start:
             yield cur
 
+# checks to see if fib number is even, then adds it to the sum if true
 sum_of_even_fibs = 0
 for i in SubFib(start_number, end_number):
     if i % 2 == 0:
