@@ -38,6 +38,7 @@ labor_costs, labor_cost_percentage, net_profit, net_profit_percentage]
 # print the results
 print "Invoice:           ${}".format(gross_profit)
 print "Cost per person:   ${}".format(cost_per_person)
+print "Number of pizzas to make: {}".format(number_of_pizzas)
 print
 print "Business Statistics:"
 print "[Dollar amount] --- [Percentage of sales]"
