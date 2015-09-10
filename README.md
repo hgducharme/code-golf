@@ -2,8 +2,8 @@
 
 A repository for all things coding practice, which includes:
 * Projects from [The Odin Project](http://www.theodinproject.com/home)
-* Solutions to [Project Euler Exercises](https://projecteuler.net/about)
-* Solutions to [Exercism Coding Problems](http://exercism.io/)
+* Solutions to [Project Euler exercises](https://projecteuler.net/about)
+* Solutions to [Exercism Cpoding problems](http://exercism.io/)
 
 ---
 
@@ -11,17 +11,18 @@ Here is the tree for this repository:
 ```bash
 #This only lists the important directories, and disregards the tree to each and every file.
 
-├── Exercises
-│   ├── Exercism
+├── exercises
+│   ├── exercism
 │   │   ├── javascript
 │   │   └── ruby
-│   ├── ProjectEuler
+│   ├── project_euler
+│   │   ├── 001
+│   │   ├── 002
+│   │   ├── 003
 │   │   ├── 004
-│   │   ├── 005
-│   │   ├── 006
-│   │   ├── ... #[shortened for brevity]
+│   │   ├── ... #shortened for brevity
+│   └── scientific_python
 ├── odin_projects
-│   ├── README.md
 │   ├── ruby_programming
 │   │   ├── OOP_ruby
 │   │   ├── advanced_building_blocks
@@ -37,5 +38,7 @@ Here is the tree for this repository:
     ├── ATPlog.rb
     ├── README.md
     ├── age_calculator.rb
-    └── bottles_of_beer.rb
+    ├── bottles_of_beer.rb
+    ├── trail_mix.py
+    └── unica_profits.py
 ```
