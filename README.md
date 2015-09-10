@@ -2,8 +2,8 @@
 
 A repository for all things coding practice, which includes:
 * Projects from [The Odin Project](http://www.theodinproject.com/home)
-* Solutions to [Project Euler Exercises](https://projecteuler.net/about)
-* Solutions to [Exercism Coding Problems](http://exercism.io/)
+* Solutions to [Project Euler exercises](https://projecteuler.net/about)
+* Solutions to [Exercism Cpoding problems](http://exercism.io/)
 
 ---
 
