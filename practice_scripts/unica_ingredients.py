@@ -119,5 +119,5 @@ print "{0:<20s} {1:6s}      {2:20s}".format(
 print "----------------------------------------------------------------"
 
 for topping, amount in required_amounts.iteritems():
-    print "{0:<20s} {1:6} units {2:20}".format(
+    print "{0:<20s} {1:6} units {2:20} g".format(
         topping, int(amount[1]), amount[0])
