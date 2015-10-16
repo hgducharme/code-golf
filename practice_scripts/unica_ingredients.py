@@ -57,8 +57,7 @@ margherita = Pizza('Italiana Margherita',
 pizza_bianca = Pizza('Pizza Bianca', 
     toppings_dictionary['Fresh Basil'],
     toppings_dictionary['Mozzarella'],
-    toppings_dictionary['Red Onions'],
-    toppings_dictionary['Tomato Sauce'])
+    toppings_dictionary['Red Onions'])
 
 spicy_texano = Pizza('Spicy Texano',
     toppings_dictionary['Jalapenos'],
@@ -77,8 +76,7 @@ italian_flag = Pizza('Italian Flag',
     toppings_dictionary['Feta Cheese'],
     toppings_dictionary['Mozzarella'],
     toppings_dictionary['Red Onions'],
-    toppings_dictionary['Spinach'],
-    toppings_dictionary['Tomato Sauce'])
+    toppings_dictionary['Spinach'])
 
 
 
